@@ -1,0 +1,71 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
+
+<!-- 스프링  태그 라이브러리 사용 -->
+<%@ taglib uri="http://www.springframework.org/tags" prefix="spring"%>
+<%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
+
+
+<!-- Contact -->
+<section id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h2 class="section-heading text-uppercase">Start TripNote!</h2>
+				<h3 class="section-subheading text-muted">Login & Membership</h3>
+				
+				<!-- 로그인 후 페이지이기때문에 로그인이 완성이 안된 관계로 테스트페이지입니다. -->
+				<a href="3_Main2.do">test</a>
+				
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<form id="contactForm" name="sentMessage" novalidate>
+					<div class="row">
+					<div class="col-md-3">
+					</div>
+						<div class="col-md-6">
+							
+							<!-- 이메일 주소=아이디 -->
+							<div class="form-group">
+								<input class="form-control" id="email" type="email" placeholder="이메일(아이디) *" required
+									   data-validation-required-message="이메일 주소를 입력해 주세요.(ID가 이메일주소입니다.)">
+								<p class="help-block text-danger"></p>
+							</div>
+							
+							<!-- 비밀번호 -->
+							<div class="form-group">
+								<input class="form-control" id="phone" type="password" placeholder="비밀번호 *" required
+									   data-validation-required-message="비밀번호를 입력해주세요.">
+								<p class="help-block text-danger"></p>
+							</div>
+						</div>
+						<div class="col-md-3">
+						</div>
+						
+						
+						<!-- 버튼 -->
+						<div class="clearfix"></div>
+						<div class="col-lg-12 text-center">
+							<div id="success"></div>
+							<button id="Login1" class="btn btn-primary btn-xl text-uppercase" type="submit">
+								로그인
+							</button>
+							&nbsp;
+							<button id="Login2" class="btn btn-primary btn-xl text-uppercase" type="submit">
+								회원가입
+							</button>
+							&nbsp;
+							<button id="Login3" class="btn btn-primary btn-xl text-uppercase" type="submit">
+								관리자
+							</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
