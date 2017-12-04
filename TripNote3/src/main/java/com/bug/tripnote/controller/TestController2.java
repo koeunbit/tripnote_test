@@ -29,13 +29,14 @@ import com.bug.tripnote.model.TestMain2VO;
 public class TestController2 {
 	
 	// 게시판 리스트 start
-	@RequestMapping(value = "/3_Main2.do", method = RequestMethod.GET)
+	@RequestMapping(value = "/2_Main2.do", method = RequestMethod.GET)
 	public String list(String pn, Model model) { // String pn v2.1에서 추가
 		
 	
 		
 		return "redirect:afterMain.do";
 	}
+	
 	@RequestMapping(value = "/favoriteTest.do", method = RequestMethod.GET)
 	public String favoriteTest( Model model, String[] test, String[] test2) {
 		System.out.println("배열test : " + test);
@@ -98,7 +99,7 @@ public class TestController2 {
 		String title2 = "아~~~~~ 소고기~~~ 육회~~~";
 		model.addAttribute("title2", title2);
 		System.out.println(TestMain2VO.getImageUrl());
-		return "main2/3_Main2";
+		return "main2/2_Main2";
 	}
 	
 	@RequestMapping(value = "/detail.do", method = RequestMethod.GET)

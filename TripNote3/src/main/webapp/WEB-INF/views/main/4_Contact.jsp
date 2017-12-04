@@ -17,7 +17,7 @@
 				<h3 class="section-subheading text-muted">Login & Membership</h3>
 				
 				<!-- 로그인 후 페이지이기때문에 로그인이 완성이 안된 관계로 테스트페이지입니다. -->
-				<a href="3_Main2.do">test</a>
+				<a href="2_Main2.do">test</a>
 				
 			</div>
 		</div>

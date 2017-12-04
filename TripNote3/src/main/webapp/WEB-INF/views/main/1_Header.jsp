@@ -7,15 +7,10 @@
 <%@ taglib uri="http://www.springframework.org/tags" prefix="spring"%>
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 
-</style>
-<!-- <script type="text/javascript" src="script/board.js"></script> -->
-</head>
-
-<body id="page-top">
 	<!-- Navigation (= 1_Header) -->
 	<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
 		<div class="container">
-			<a class="navbar-brand js-scroll-trigger" href="#page-top">
+			<a class="navbar-brand js-scroll-trigger" href="http://localhost:8080/tripnote/">
 				TripNote</a>
 			<!--  -->
 			<button class="navbar-toggler navbar-toggler-right" type="button"

@@ -31,6 +31,10 @@
 
 <!-- Footer -->
 <footer>
+<a class="navbar-brand js-scroll-trigger" href="#page-top" style="display:block; font-size:20px; font-weight:600; color:#fff; background-color:#fed136; padding-left:80%;">
+				Top</a>
+				<br/>
+				<br/>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4">
@@ -39,13 +43,16 @@
 			<!-- ------------------------------------------------------------------ -->
 			<div class="col-md-4">
 				<ul class="list-inline social-buttons">
-					<li class="list-inline-item"><a target="_blank"
-						href="https://www.naver.com"> naver<i class="fa fa-naver"></i>
-					</a></li>
+					<li class="list-inline-item">
+					<a target="_blank" href="https://www.naver.com"> 
+						naver<i class="fa fa-naver"></i>
+					</a>
+					</li>
 					<!-- ------------------------------------------------------------------ -->
 					<li class="list-inline-item"><a target="_blank"
 						href="https://www.google.co.kr"> google<i class="fa fa-google"></i>
-					</a></li>
+					</a>
+					</li>
 					<!-- ------------------------------------------------------------------ -->
 					<li class="list-inline-item"><a target="_blank"
 						href="https://ko-kr.facebook.com/"> Facebook<i
